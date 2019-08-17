@@ -8,7 +8,6 @@ import (
 
 func merge(array1 []int , array2 []int) []int {
 
-
 	len1 := len(array1)
 	len2 := len(array2)
 
@@ -55,7 +54,7 @@ func main(){
 
 	var (
 		array1 []int	// section of array
-		array2 []int	// store the tmp combine result
+		array2 []int	// store the combine result
 		arrayLen int
 	)
 
