@@ -46,7 +46,6 @@ function merge($array1,$array2)
 
 }
 
-
     	$array = [706,100,188,9,11,25,133,452,364,5889,293,607,365,8633,555,18,66,78,15,43,67,96,155,387,972,1002,74,38,633,801];
 	$arrayLen = count($array);
 	for($i = 0 ; $i < $arrayLen ; $i++) {
@@ -66,3 +65,5 @@ function merge($array1,$array2)
 	// maybe some elements left, merge it too
 	$array2 = merge($array1,$array2);
 	print_r($array2);
+
+
