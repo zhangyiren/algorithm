@@ -1,6 +1,5 @@
 # algorithm
 
-## screenshot
 ![avatar](https://github.com/zhangyiren/algorithm/blob/master/guessPassword/screenshot/pwd.jpg)
 
 ## 编写程序解题(如上图)
