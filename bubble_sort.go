@@ -17,13 +17,10 @@ func main(){
 	fmt.Println()
 
 	var k = len(array)
-	var temp int
 	for i:= 0; i<k; i++ {
 		for j:=0; j<k-1; j++ {
 			if array[i] > array[j] {
-				temp = array[j]
-				array[j] = array[i]
-				array[i] = temp
+				array[i],array[j] = array[j],array[i]
 			}
 		}
 	}
